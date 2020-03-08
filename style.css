@@ -1,0 +1,255 @@
+/***  style body  de page ***/
+body {
+     background-color: rgb(255, 255, 255);
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1em;
+     color: rgb(40, 40, 46);
+     font-weight: 100;
+}
+
+/*** style entete de page ***/
+header {
+     height: 50px;
+     color: rgb(17, 7, 7);
+     
+     background-color: rgb(99, 3, 32);
+     background: linear-gradient(to bottom, rgba(243, 240, 240, 0.116) 0%, #8b7a81 66%, rgb(90, 51, 67) 100%);
+}
+
+ /***  style menu de page ***/
+nav {
+     position: relative;
+     background-color:rgb(146, 110, 119) ;
+   
+     width: 100%;
+     height: 50px;
+ }
+ 
+nav a {
+     display: block;
+     color:white;
+     background:  mediumblue;
+    background: linear-gradient(to bottom, #d2dee2 0%, #9697bb 66%, rgb(48, 67, 99) 100%);
+     text-align: center;
+     padding: 14px 16px;
+     margin-left: 5px;
+     border-radius : 10px ;
+     text-decoration: none;
+     font-size: 1em;
+ }
+ 
+nav a:hover {
+     background:rgb(224, 166, 224);
+ }
+
+ 
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(18, 18, 20);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(116, 104, 104);
+  }
+
+ /*** style pied de page****/
+ footer {
+     float: left;
+     background-color: rgb(165, 134, 168);
+     color: rgb(219, 196, 200);
+     width: 80%;
+     height: 250px;
+     font-family: 'Times New Roman", Times, serif', sans-serif;
+     font-size: 1em;
+     padding-left: 10%;
+     padding-right: 10%;
+     line-height: 25px;
+     text-decoration: none;
+ }
+ 
+footer table {
+    border-collapse: collapse;
+    width: 100%;
+    vertical-align: top;
+}
+
+footer table td {
+    font-family: sans-serif;
+    vertical-align: top;
+}
+
+ /***style titres: ***/
+ .style-titre1 {
+     font-family: ms_bold, Georgia, serif;
+     font-size: 3em;
+     color: rgb(124, 29, 50);
+     padding-left: 10%;
+     padding-right: 10%;
+     text-shadow: 2px 2px 3px gray;
+ }
+ 
+ .style-titre2 {
+    font-family: ms_bold, Arial, sans-serif;
+    font-size: 1.2em;
+    color:rgb(204, 1, 1);    
+    padding-left: 10%;
+    padding-right: 10%;
+    text-shadow: 2px 2px 3px gray;
+}
+
+.style-titre3 {
+    font-family: ms_bold, Arial, sans-serif;
+    font-size: 1.2em;
+    color: rgb(153, 7, 7);
+    padding-left: 10%;
+    padding-right: 10%;
+    text-shadow: 2px 2px 3px gray;
+}
+
+
+ .style-paragraphe {
+     font-family: 'Comic Sans MS', cursive;
+     font-size: 1.2em;
+     text-align: justify;
+     color: rgb(12, 6, 6);
+     line-height: 30px;
+     padding-left: 10%;
+     padding-right: 10%;
+ }
+
+a.sans-decoration:link {
+    text-decoration: none;
+    color: rgb(236, 231, 231);
+}
+
+a.sans-decoration:visited {
+    color: rgb(231, 231, 231);
+}
+
+a.sans-decoration:hover {
+    color: rgb(3, 32, 34);
+}
+
+/*** style liens formations tableau1***/
+.formations-tableau1 {
+    background: linear-gradient(to bottom,rgb(238, 67, 127) 40%, #5e0061 66%, rgb(8, 26, 58) 30%);
+            text-align: center;
+            
+            height: 300px;
+            vertical-align: middle;
+}
+.formations-tableau1 table{
+    width: 100%;
+    height:300px;
+    text-align: center;
+}
+.formations-tableau1 img {
+    overflow: hidden;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+    width: 140px;
+    height: 140px;
+}
+
+/***style liens formations tableau2***/
+.formations-tableau2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    vertical-align: middle;
+}
+.formations-tableau2 table{
+    width: 100%;
+    text-align: center;
+    border-spacing : 50px;
+}
+.formations-tableau2 img {
+    overflow: hidden;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+    width: 140px;
+    height: 140px;
+}
+
+/*** style formulaire réservation****/
+.form1 {
+    padding: 10px 15px 15px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    width: 60%;
+    margin-left:20%;
+    background-color: #F8F8FF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 6px;
+    border: solid 1px #e9edf0;
+    box-shadow: 3px 3px 0px #e5e8eb;
+}
+
+.form1 input,
+.form1 select {
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 80%;
+    left: 10%;
+    min-height: 30px;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    outline: none;
+    margin-left: 60px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.form1 input:focus,
+.form1 select:focus {
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+    background: #E0FFFF;
+}
+
+.form1 input[type=submit] {
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form1 input[type=submit]:hover {
+    background: rgb(79, 115, 184);
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.form1 label {
+    margin-left: 60px;
+    color: rgb(21, 21, 156);
+    font-weight: bold;
+}
+

@@ -1,0 +1,15 @@
+CREATE DATABASE IF NOT EXISTS db_reservation;
+use db_reservation;
+
+CREATE TABLE IF NOT EXISTS reservation(
+   numR INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+   dateR date,
+   nom VARCHAR(50) NOT NULL,
+   prenom VARCHAR(50) NOT NULL,
+   adresse VARCHAR(100),
+   ville VARCHAR(50),
+   tel VARCHAR(25),
+   email VARCHAR(50),
+   codevol VARCHAR(50),
+   classe VARCHAR(50)
+);

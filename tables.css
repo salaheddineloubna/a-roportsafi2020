@@ -1,0 +1,122 @@
+.table1 {
+    border: 1px solid rgb(17, 136, 80);
+    background-color: #EEEEEE;
+    width: 70%;
+    margin-left:15%;
+    text-align: left;
+    border-collapse: collapse;
+    font-family: Georgia, "DejaVu Serif", Norasi, serif;
+    font-size: 1em;
+    Line-Height: 1.5;
+    padding: 10px 10px;
+    color: rgb(92, 92, 100);
+}
+
+.table1 td,
+.table1 th {
+    border: 1px solid #AAAAAA;
+    padding: 10px 10px;
+}
+
+.table1 tbody td {
+    vertical-align: text-top;
+}
+
+.table1 tr:nth-child(even) {
+    background: rgb(245, 238, 208);
+    vertical-align: text-top;
+}
+
+.table1 thead {
+    background: linear-gradient(to bottom, #e6a52e 0%, #f0cc92 66%, rgb(185, 101, 23) 100%);
+    border-bottom: 2px solid #444444;
+}
+
+.table1 thead th {
+    font-weight: bold;
+    color: rgb(10, 8, 8);
+    border-left: 2px solid rgb(245, 245, 245);
+}
+
+.table1 thead th:first-child {
+    border-left: none;
+}
+
+.table1 tfoot {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.986);
+    background: linear-gradient(to bottom, #f7f0dc 0%, #f6f0d4 66%, rgb(245, 231, 208) 100%);
+    border-top: 2px solid #444444;
+}
+
+.table1 tfoot td {
+    font-size: 14px;
+}
+
+.table1 tfoot .links {
+    text-align: right;
+}
+
+.table1 tfoot .links a {
+    display: inline-block;
+    background: rgb(216, 189, 116);
+    color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+
+/***********************************************************************/
+ 
+.table2 {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.table2 th {
+
+    font-weight: normal;
+    background: #b5dee2;
+    border: 1px solid #e8e9ec;
+    color: black;
+    padding: 8px;
+    text-align: left;
+}
+
+.table2 td {
+    border-bottom: 1px solid #fff;
+    border: 1px solid #fff;
+    color: #669;
+    background: #e8edff;
+    padding: 8px;
+}
+
+
+.table2 tbody tr:hover td {
+    background: #cbf1e1;
+}
+ 
+/******************************************************/
+.table3 {
+    border: medium solid #6495ed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table3 th {
+    border: thin solid #6495ed;
+    padding: 5px;
+    background-color: #D0E3FA;
+    background-image: url(sky.jpg);
+}
+
+.table3 td {
+    font-family: sans-serif;
+    border: thin solid #6495ed;
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffff;
+}

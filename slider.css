@@ -1,0 +1,49 @@
+@keyframes animIMG {
+    0% {
+        opacity: 0;
+    }
+    11.11% {
+        opacity: 1;
+    }
+    33.33% {
+        opacity: 1;
+    }
+    44.44% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.slide-img {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    outline: 1px solid blue;
+    overflow: hidden;
+}
+
+.slide-img img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    animation-name: animIMG;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+.slide-img img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.slide-img img:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.slide-img img:nth-child(3) {
+    animation-delay: 8s;
+}
+
+
